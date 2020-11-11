@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="ChatService.Client.Views.ConversationControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ChatService.Client.Views"
+             mc:Ignorable="d" 
+             >
+
+    <ListBox Grid.Row="1" Grid.Column="2" ItemsSource="{Binding Messages}" HorizontalContentAlignment="Stretch" Background="#FF201F1F" BorderBrush="#FF201F1F" Foreground="White">
+        <ListBox.ItemTemplate>
+            <DataTemplate>
+                <local:MessageControl/>
+            </DataTemplate>
+        </ListBox.ItemTemplate>
+    </ListBox>
+</UserControl>

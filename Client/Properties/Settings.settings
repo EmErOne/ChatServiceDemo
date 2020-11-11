@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ChatService.Client.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ServerURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://localhost:58459</Value>
+    </Setting>
+    <Setting Name="MyGUID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">146f61f1-6dd0-471f-a8ed-264be2293630</Value>
+    </Setting>
+    <Setting Name="MyNickname" Type="System.String" Scope="User">
+      <Value Profile="(Default)">User1</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
